@@ -1,0 +1,24 @@
+{% extends "base/base.html" %}
+
+{% block head %}
+    <meta charset="UTF-8">    
+    <link rel="stylesheet" type="text/css">
+   
+{% endblock %}
+
+{% block body %}
+<body translate="no" id="body-main">
+   <div>Welcome to a pure skeleton of what will soon become a TA Assignment application</div>
+   <div>Please select your role</div>
+   <a href="{{url_for('uta_home')}}"><button>UTA</button></a>
+   <a href="{{url_for('ptig_home')}}"><button>PTIG</button></a>
+   <a href="{{url_for('gradta_home')}}"><button>Grad-TA</button></a>
+   <a href="{{url_for('faculty_home')}}"><button>faculty</button></a>
+   <a href="{{url_for('admin_home')}}"><button>admin</button></a>
+   
+</body>
+
+
+
+
+{% endblock %}
