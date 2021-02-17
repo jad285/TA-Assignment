@@ -24,3 +24,6 @@ __pycache__/main.cpython-38.pyc
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# v environment
+/app/api/venv
